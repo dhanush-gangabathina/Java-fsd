@@ -1,10 +1,9 @@
 package Projects;
-
  class PracticeProject2 {
-	 public int publicField = 10;
-	 private int privateField = 20;
-	 protected int protectedField = 30;
-	 int defaultField = 40;
+	 public int publicField = 7;
+	 private int privateField = 3;
+	 protected int protectedField = 9;
+	 int defaultField = 5;
 	 public void publicMethod() {
 	     System.out.println("Public Method");
 	 }
@@ -21,6 +20,8 @@ package Projects;
 	  PracticeProject2 pp = new PracticeProject2();
       System.out.println("Public Field: " + pp.publicField);
       pp.publicMethod();
+      System.out.println("Private Field: "+ pp.privateField);
+      pp.privateMethod();
       System.out.println("Protected Field: " + pp.protectedField);
       pp.protectedMethod();
       System.out.println("Default Field: " + pp.defaultField);
